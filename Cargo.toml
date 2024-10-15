@@ -1,0 +1,17 @@
+[package]
+name = "transcribewizard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+imgui = "0.12.0"
+imgui-sdl2-support = "0.13.0"
+imgui-glow-renderer = "0.13.0"
+glow = "0.14.2"
+sdl2 = { version = "0.37", features = ["bundled", "static-link"] }
+rten = { version = "0.13.1" }
+rten-imageproc = { version = "0.13.1" }
+rten-tensor = { version = "0.13.1" }
+ocrs = "0.9.0"
+clipboard-rs = "0.2.1"
+image = "0.25.2"
